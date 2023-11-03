@@ -53,7 +53,7 @@ export class App extends Component {
     });
 
     return (
-      <StyledContainer className="container">
+      <StyledContainer>
         <ContactsForm onSubmit={this.handleFormSubmit} />
 
         <Filter

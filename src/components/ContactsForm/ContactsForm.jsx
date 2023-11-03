@@ -25,9 +25,8 @@ export class ContactsForm extends Component {
     return (
       <StyledContactWrapper>
         <form onSubmit={this.handleSubmit}>
-          <StyledLabel className="title">Name</StyledLabel>
+          <StyledLabel>Name</StyledLabel>
           <StyledInput
-            className="form-control mb-3"
             type="text"
             name="name"
             required
@@ -38,7 +37,6 @@ export class ContactsForm extends Component {
           />
           <StyledLabel className="title">Number</StyledLabel>
           <StyledInput
-            className="form-control mb-3"
             type="number"
             name="number"
             required
@@ -46,9 +44,7 @@ export class ContactsForm extends Component {
             value={this.state.number}
             onChange={this.handleChange}
           />
-          <StyledBtn className="addContactBtn" type="submit">
-            Add contact
-          </StyledBtn>
+          <StyledBtn type="submit">Add contact</StyledBtn>
         </form>
       </StyledContactWrapper>
     );

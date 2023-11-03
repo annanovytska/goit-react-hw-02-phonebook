@@ -10,7 +10,6 @@ export const ContactList = ({ contacts, onDeleteContact }) => (
           {name} : {number}
           <StyledBtn
             id={nanoid(id)}
-            className="contactListBtn"
             type="button"
             onClick={() => onDeleteContact(id)}
           >

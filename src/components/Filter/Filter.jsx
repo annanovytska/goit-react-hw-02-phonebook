@@ -4,14 +4,9 @@ import styled from 'styled-components';
 export const Filter = ({ type, value, onChange }) => {
   return (
     <StyledFilterWrapper>
-      <h2 className="filterTitle">Contacts</h2>
-      <p className="filterText">Find contact by name</p>
-      <StyledInput
-        className="form-control filterInput"
-        type={type}
-        value={value}
-        onChange={onChange}
-      ></StyledInput>
+      <h2>Contacts</h2>
+      <p>Find contact by name</p>
+      <StyledInput type={type} value={value} onChange={onChange}></StyledInput>
     </StyledFilterWrapper>
   );
 };
