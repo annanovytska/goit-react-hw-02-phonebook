@@ -12,4 +12,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  display: block;
+  margin-bottom: 20px;
+  background-color: beige;
+  margin-left: 20px;
 }
